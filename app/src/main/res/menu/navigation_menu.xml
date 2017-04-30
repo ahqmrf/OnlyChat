@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/my_profile"
+        android:icon="@drawable/ic_account_circle_black_24dp"
+        android:onClick="goToMyProfile"
+        android:title="@string/my_profile" />
+
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:onClick="goToSettings"
+        android:title="@string/settings" />
+
+    <item
+        android:id="@+id/sign_out"
+        android:icon="@drawable/ic_power_settings_new_black_24dp"
+        android:onClick="signOut"
+        android:title="@string/sign_out" />
+</menu>
